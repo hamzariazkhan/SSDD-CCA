@@ -1,0 +1,19 @@
+cd vulnerable_app
+pip install -r requirements.txt
+python init_db.py
+python app.py
+
+
+<script>alert('Hacked')</script>
+
+
+
+cd fixed_app
+python init_db.py
+python app.py
+
+
+pytest tests/
+
+
+
